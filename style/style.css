@@ -11,7 +11,11 @@ header {
 }
 nav {
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+a {
+    color: black;
 }
 .container {
     margin: 10px auto;
@@ -35,6 +39,11 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+.imgboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .imgboxes img {
     height: auto;
     width: 200px;
@@ -44,8 +53,9 @@ nav {
     align-items: center;
   }  
 .imgboxes figcaption {
+    min-width: 240px;
     font-weight: bold;
-    padding-left: 15px;
+    text-align: center;
 }  
 #teambanner {
     background-image: url('https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg');
