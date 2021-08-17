@@ -1,0 +1,68 @@
+body {
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav {
+    display: inline-flex;
+    justify-content: space-around;
+}
+.container {
+    margin: 10px auto;
+}
+#banner{
+    width: 100%;
+    background-color: white;
+}
+#mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgboxes img {
+    height: auto;
+    width: 200px;
+}
+.imgboxes figure {
+    display: flex;
+    align-items: center;
+  }  
+.imgboxes figcaption {
+    font-weight: bold;
+    padding-left: 15px;
+}  
+#teambanner {
+    background-image: url('https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg');
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.details {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+.details img {
+    height: auto;
+    width: 200px;
+}
+.copyright {
+    margin-top: 80px;
+}
